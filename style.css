@@ -1,0 +1,215 @@
+:root{
+    /*Font Color*/
+    --dark: #1F2937;
+    --light: #F9FAF8;
+    --grey: #E5E7EB; 
+    --button: #3882F6;
+    
+    /*Font Size*/
+    --large: 48px;
+    --regular: 36px;
+    --small: 24px;
+    --smaller: 18px;
+    }
+    
+    * {
+        font-family: 'Roboto', sans-serif;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+
+        /* Header */
+
+    }
+    li, a, button{
+        font-size: smaller;
+        color: var(--grey);
+        text-decoration: none;
+    }
+    header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 10px;
+    background-color: var(--dark);
+    margin-bottom: 0px;
+    }
+    .logo{
+        cursor: pointer;
+        margin-right: 50%;
+    }
+    .links{
+        cursor: pointer;
+        margin-right: 230px;
+    }
+    .links li{
+        display: inline-block;
+        padding: 0px 15px;
+    }
+    .links li a:hover{
+        color: goldenrod;
+    }
+
+    /* Sub Header */ 
+
+    button{
+        padding: 10px 25px;
+        background-color: var(--button);
+        border-radius: 10px;
+        font-weight: bold;
+        font-size: 14px;
+    }
+
+    headersub button:hover{
+        background-color: goldenrod;
+        color: var(--light);
+    }
+
+    headersub{
+        background-color: var(--dark);
+        color: var(--light);;
+        padding: 0px 150px;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+            
+    }
+    headersub h1{
+        font-size:var(--large);
+        font-family: Roboto-Bold;
+    }
+    headersub p{
+        font-size: smaller;
+        margin-top: 20px;
+    }
+
+    headersub button{
+        margin-top: 20px;
+        margin-bottom: 40px;
+
+    }
+    headersub img{
+        margin-right: 100%;
+        margin: 10px 100px;
+    }
+    .first{
+        margin-right: auto;
+    }
+    h2{
+        text-align: center;
+        font-size: var(--regular);
+        color: var(--dark);
+    }
+
+    /* Images */
+
+    mid{
+        display: flex;
+        justify-content: space-evenly;
+     
+    }
+    mid img{
+        border-radius: 10%;
+        border: 3px solid var(--button);
+        margin-bottom: 5px;
+    }
+    mid figcaption{
+        text-align: center;
+        color:var(--dark);
+        margin-bottom: 100px;
+    }
+
+    /* Quote */
+
+    quote{
+        background: var(--grey);
+        color: var(--dark);
+        align-items: center;
+        padding: 0px 150px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    .thequote{
+        /* font-family: Roboto-Italic; */
+        font-size: var(--regular);
+        text-align: center;
+        margin: 100px;
+        margin-bottom: 10px;
+        font-family: Roboto-LightItalic;
+        font-weight:lighter;
+        font-style: italic;
+    }
+
+    quote p{
+        display: inline;
+    }
+
+    .yoda{
+        font-size: var(--small);
+        text-align: center;
+        margin-left: 30%;
+        margin-bottom: 40px;
+    }
+
+    /* Banner */
+
+    banner{
+        background-color: #3882F6;
+        border-radius: 10px;
+        margin: 100px;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        color: var(--light);
+    }
+
+    .text{
+        margin-right: 40%;
+        padding: 50px;
+    }
+
+    .button{
+        padding: 60px;
+    }
+    
+    banner button{
+        border: 3px solid var(--light);
+        display: inline-block;
+        cursor: pointer;
+    }
+
+    banner button:hover{
+        background-color: goldenrod;
+        color: var(--light);
+    }
+
+    /* Footer */
+
+    footer{
+        background-color:var(--dark);
+        color: var(--grey);
+        font-family: Roboto-Italic;
+        text-align: center;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        padding: 50px;
+      
+    }
+
+    footer h3,p{
+        margin-right: auto;
+    }
+
+  .socials{
+    margin-right: 20px;
+    display: inline-block;
+    padding: 0px 15px;
+    list-style: none;
+  }
+    
+    
+    
+  
