@@ -1,3 +1,3 @@
 # CSS
 
-https://chloegem.github.io/CSS/
+https://chloegem.github.io/WebDesign/
